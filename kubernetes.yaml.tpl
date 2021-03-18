@@ -18,7 +18,7 @@ spec:
       - name: my-image
         image: gcr.io/GOOGLE_CLOUD_PROJECT/my-image:COMMIT_SHA
         ports:
-        - containerPort: 8080
+        - containerPort: 6060
 ---
 kind: Service
 apiVersion: v1
