@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: my-image
-        image: gcr.io/GOOGLE_CLOUD_PROJECT/my-image:COMMIT_SHA
+        image: gcr.io/euphoric-diode-307115/my-image:COMMIT_SHA
         ports:
         - containerPort: 6060
 ---
